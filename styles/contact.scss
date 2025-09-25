@@ -1,0 +1,43 @@
+.contact {
+  .form-section {
+    text-align: center;
+    margin: 2rem;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+
+      input, textarea {
+        margin-bottom: 1rem;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      button {
+        background: $accent-color;
+        color: white;
+        border: none;
+        padding: 0.75rem;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:hover {
+          background: darken($accent-color, 10%);
+        }
+      }
+    }
+  }
+
+  .map {
+    margin: 2rem;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
