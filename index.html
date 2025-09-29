@@ -4,10 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Genesis — Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/variable.css">
   <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/hero.css">
+
   
 </head>
 <body>
@@ -15,101 +17,108 @@
     <nav class="nav">
       <a class="logo" href="index.html"> <img src="images/Logo.svg" alt="logo"></a>
       <div class="nav-links">
-        <a href="project.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="pages/project.html">Projects</a>
+        <a href="pages/contact.html">Contact</a>
       </div>
     </nav>
   </header>
 
-  <main class="home">
-    <section class="intro">
-      <h1>Hello, I’m Bakhtiyar Sattarov, <span class="muted">product designer</span></h1>
-      <p class="lead">with experience in studios and startups</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-left">
+      <h4 class="subtitle">Shooting Stars</h4>
+      <h1>
+        Hello, I’m Bakhtiyar Sattarov, 
+        <span class="accent">product designer</span>
+        with experience in studios and startups
+      </h1>
+    </div>
+    <div class="hero-right">
+      <p>Design is about progress</p>
+    </div>
+  </section>
 
-    <section class="gallery">
-      <div class="grid">
-        <!-- use your images or placeholders -->
-        <img src="images/Rectangle.png">
-        <img src= "images/Rectangle (1).png">
-        <img src="images/Rectangle (2).png">
-        <img src="images/Rectangle (3).png">
-        <img src="images/Rectangle (4).png">
-        <img src="images/Rectangle (5).png">
-        <img src="images/Rectangle (6).png">
-        <img src="images/Rectangle (7).png">
-        <img src="images/Rectangle (8).png">
-        <img src="images/Rectangle (9).png">
-        <img src="images/Rectangle (10).png">
-        <img src="images/Rectangle (11).png">
+  <!-- Image Grid -->
+  <section class="gallery">
+    <div class="grid">
+      <img src="images/Rectangle.png" alt="first-img">
+      <img src="images/Rectangle (1).png" alt="second-img">
+      <img src="images/Rectangle (2).png" alt="third-img">
+      <img src="images/Rectangle (3).png" alt="fourth-img">
+      <img src="images/Rectangle (4).png" alt="fifth-img">
+      <img src="images/Rectangle (5).png" alt="sixth-img">
+      <img src="images/Rectangle (6).png" alt="seventh-img">
+      <img src="images/Rectangle (7).png" alt="eigth-img">
+      <img src="images/Rectangle (8).png" alt="nineth-img">
+      <img src="images/Rectangle (9).png" alt="tenth-img">
+      <img src="images/Rectangle (10).png" alt="eleventh-img">
+      <img src="images/Rectangle (11).png" alt="tweleveth-img">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <p>
+      We love work hard and explore new things that’s why we cover lot of things. 
+      Check our service list and view details
+    </p>
+    <div class="service-list">
+      <ul>
+        <li>Multimedia</li>
+        <li>Interactive Design</li>
+        <li>Branding</li>
+      </ul>
+      <ul>
+        <li>Creative Design</li>
+        <li>Packaging</li>
+        <li>Coding</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section class="awards">
+    <div class="award-block">
+      <h3>Awwwards</h3>
+      <div class="award-item">
+        <span>Site of the day</span>
+        <p><strong>Genesis UI Kit</strong><br>Application that helps to find nearest sport centres</p>
+        <span class="year">2018</span>
       </div>
-    </section>
-
-        <!-- Services & Awards Section -->
-    <section class="services-awards">
-      <div class="services">
-        <p>
-          We love work hard and explore new things that’s why we cover a lot of things. 
-          Check our service list and view details.
-        </p>
-        <div class="service-list">
-          <ul>
-            <li>Multimedia</li>
-            <li>Interactive Design</li>
-            <li>Branding</li>
-          </ul>
-          <ul>
-            <li>Creative design</li>
-            <li>Packaging</li>
-            <li>Coding</li>
-          </ul>
-        </div>
+      <div class="award-item">
+        <span>Best navigation</span>
+        <p><strong>Genesis Template</strong><br>Application that helps to find nearest sport centres</p>
+        <span class="year">2018</span>
       </div>
+    </div>
 
-      <div class="awards">
-        <div class="award-block">
-          <h3>Awwwards</h3>
-          <div class="award-item">
-            <p>Site of the day</p>
-            <p><strong>Genesis UI Kit</strong><br>
-            Application that helps to find nearest sport centers</p>
-            <span class="year">2018</span>
-          </div>
-          <div class="award-item">
-            <p>Best navigation</p>
-            <p><strong>Genesis Template</strong><br>
-            Application that helps to find nearest sport centers</p>
-            <span class="year">2018</span>
-          </div>
-        </div>
-
-        <div class="award-block">
-          <h3>CSSDesignAwards</h3>
-          <div class="award-item">
-            <p>Site of the day</p>
-            <p><strong>Genesis UI Kit</strong><br>
-            Application that helps to find nearest sport centers</p>
-            <span class="year">2017</span>
-          </div>
-          <div class="award-item">
-            <p>Best navigation</p>
-            <p><strong>Genesis Template</strong><br>
-            Application that helps to find nearest sport centers</p>
-            <span class="year">2016</span>
-          </div>
-        </div>
+    <div class="award-block">
+      <h3>CSSDesignAwards</h3>
+      <div class="award-item">
+        <span>Site of the day</span>
+        <p><strong>Genesis UI Kit</strong><br>Application that helps to find nearest sport centres</p>
+        <span class="year">2017</span>
       </div>
-    </section>
+      <div class="award-item">
+        <span>Best navigation</span>
+        <p><strong>Genesis Template</strong><br>Application that helps to find nearest sport centres</p>
+        <span class="year">2016</span>
+      </div>
+    </div>
+  </section>
 
-  </main>
-
-  <footer>
+  <!-- Footer -->
+   <footer>
     <div class="footer-inner">
       <img src="images/Logo.svg" alt="logo">
       <div class="footer-links">
-        <a href="index.html">Home</a>
         <a href="project.html">Projects</a>
         <a href="contact.html">Contact</a>
+        <div class="social-icons">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
       </div>
     </div>
   </footer>

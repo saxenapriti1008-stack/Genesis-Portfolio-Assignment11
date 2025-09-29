@@ -1,24 +1,16 @@
-.project {
-  .project-hero {
-    text-align: center;
-    margin: 2rem;
-
-    img {
-      margin-top: 1rem;
-      max-width: 100%;
-      border-radius: 10px;
-    }
-  }
-
-  .related-projects .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 2rem;
-
-    img {
-      width: 100%;
-      border-radius: 8px;
-    }
-  }
+.project-box {
+  margin-top: 30px;
+  display: grid;
+  align-content: center;
+  grid-template-rows: repeat(6, 3fr);
+  grid-template-columns: repeat(2, 3fr);
+  row-gap: 25px;
 }
+
+.project-box > div {
+  border-bottom: 1.5px solid #D8D8D8;
+}
+
+.left { font-size: 16px; }
+.right { font-weight: bold; font-size: 16px; }
+

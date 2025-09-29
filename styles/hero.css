@@ -1,0 +1,33 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 60px 70px;
+}
+.hero .hero-left {
+  max-width: 650px;
+}
+.hero .hero-left h4.subtitle {
+  color: #4A4FF2;
+  margin-bottom: 20px;
+}
+.hero .hero-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.hero .hero-left h1 .accent {
+  color: #4A4FF2;
+}
+.hero .hero-right {
+  font-style: italic;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  color: #555;
+}

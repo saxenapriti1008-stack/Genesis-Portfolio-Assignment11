@@ -1,6 +1,42 @@
 footer {
-  text-align: center;
-  padding: 1rem;
-  border-top: 1px solid #ddd;
-  color: $secondary-color;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 40px;
+  padding: 20px 0;
+
+  .footer-inner {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .logo {
+    font-weight: bold;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      color: $primary-color;
+
+      &:hover {
+        color: $highlight-color;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 12px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
 }
+

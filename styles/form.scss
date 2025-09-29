@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 330px;
+}
+
+.input-field {
+  border: none;
+  border-bottom: 1px solid $secondary-color;
+  outline: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+
+  &:hover {
+    background-color: burlywood;
+  }
+}
+
+button {
+  background-color: $highlight-color;
+  color: #ffffff;
+  border: none;
+  width: 125px;
+  height: 50px;
+
+  &:hover {
+    background-color: #FFB039;
+  }
+}
